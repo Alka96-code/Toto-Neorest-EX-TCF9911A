@@ -6,7 +6,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-40 bg-white shadow-sm p-4">
-      {/* Container utama dengan justify-end agar nav bergeser ke kanan */}
+      {/* Container utama dengan justify-end */}
       <div className="max-w-7xl mx-auto flex items-center justify-center">
         {/* Navigation Links */}
         <nav className="flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-[#2B2B2B]">
